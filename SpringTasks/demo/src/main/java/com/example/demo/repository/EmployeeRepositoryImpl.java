@@ -1,10 +1,10 @@
 package com.example.demo.repository;
-
+import org.springframework.stereotype.Component;
 import com.example.demo.model.Employee;
 
 
 import java.sql.*;
-
+@Component
 public class EmployeeRepositoryImpl implements EmployeeRepository {
     public static final String JDBC_URL = "jdbc:postgresql://localhost:5432/postgres?user=postgres&password=636847482";
 
